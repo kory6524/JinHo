@@ -1,0 +1,18 @@
+# 설치 되어 있어야 할 패키지 
+install.packages(c("ggplot2", 'dplyr', 'mosaic'))
+install.packages(c("rpart", 'rpart.plot', 'rattle','RColorBrewer'))
+install.packages(c("randomForest", 'class','nnet','e1071'))
+install.packages(c('Epi', 'caret','Metrics'))
+
+library(ggplot2)
+library(dplyr)
+library(mosaic)
+library(rpart)
+library(rpart.plot)
+library(RColorBrewer)
+library(randomForest)
+library(class)
+library(nnet)
+library(Epi)
+library(caret)
+library(Metrics)
